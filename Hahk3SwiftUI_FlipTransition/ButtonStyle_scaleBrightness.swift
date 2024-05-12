@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct ButtonStyle_scaleBrightness: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct ButtonStyle_scale: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.9 : 1)
+            .shadow(color: .gray.opacity(configuration.isPressed ? 0 : 0.3), radius: 10, x: 0, y: 2)
+            .animation(.smooth(duration:0.3), value: configuration.isPressed)
+            .sensoryFeedback(configuration.isPressed ? .selection : .start, trigger: configuration.isPressed)
+            .animation(nil, value: configuration.isPressed)
     }
-}
-
-#Preview {
-    ButtonStyle_scaleBrightness()
 }

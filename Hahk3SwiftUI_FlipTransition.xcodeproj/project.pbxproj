@@ -11,6 +11,8 @@
 		CFD5B7732BF0A6C10080AB2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5B7722BF0A6C10080AB2A /* ContentView.swift */; };
 		CFD5B7752BF0A6C20080AB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD5B7742BF0A6C20080AB2A /* Assets.xcassets */; };
 		CFD5B7782BF0A6C20080AB2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD5B7772BF0A6C20080AB2A /* Preview Assets.xcassets */; };
+		CFD5B77F2BF0AA340080AB2A /* FlipTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5B77E2BF0AA340080AB2A /* FlipTransition.swift */; };
+		CFD5B7812BF0AA6C0080AB2A /* ButtonStyle_scaleBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5B7802BF0AA6C0080AB2A /* ButtonStyle_scaleBrightness.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CFD5B7722BF0A6C10080AB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFD5B7742BF0A6C20080AB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD5B7772BF0A6C20080AB2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD5B77E2BF0AA340080AB2A /* FlipTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTransition.swift; sourceTree = "<group>"; };
+		CFD5B7802BF0AA6C0080AB2A /* ButtonStyle_scaleBrightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_scaleBrightness.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CFD5B7702BF0A6C10080AB2A /* Hahk3SwiftUI_FlipTransitionApp.swift */,
 				CFD5B7722BF0A6C10080AB2A /* ContentView.swift */,
+				CFD5B77E2BF0AA340080AB2A /* FlipTransition.swift */,
+				CFD5B7802BF0AA6C0080AB2A /* ButtonStyle_scaleBrightness.swift */,
 				CFD5B7742BF0A6C20080AB2A /* Assets.xcassets */,
 				CFD5B7762BF0A6C20080AB2A /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD5B77F2BF0AA340080AB2A /* FlipTransition.swift in Sources */,
 				CFD5B7732BF0A6C10080AB2A /* ContentView.swift in Sources */,
 				CFD5B7712BF0A6C10080AB2A /* Hahk3SwiftUI_FlipTransitionApp.swift in Sources */,
+				CFD5B7812BF0AA6C0080AB2A /* ButtonStyle_scaleBrightness.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
